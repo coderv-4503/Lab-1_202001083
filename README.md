@@ -7,7 +7,6 @@ Name:- Vedant Patel
 Student ID:- 202001083
 
 
-
 Q.1. Identify FRs and NFRs:
 
 Functional Requirements
@@ -61,7 +60,7 @@ Q.2. Identify scope, features and non-functional aspects of the following proble
 
 Scope
 
-	The app able to identify the different alert sounds like car horn, bell rings, door knocks,
+The app able to identify the different alert sounds like car horn, bell rings, door knocks,
 Call rings, fire alarms, Animal sound etc. After that it should replicate that alerts via vibration and flash lights in a real time environment. (quick).
 
 Features 
