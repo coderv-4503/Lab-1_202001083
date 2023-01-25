@@ -1,6 +1,11 @@
 # Lab-1_202001083
 
-IT - 314 assi
+IT - 314 Software Engineering 
+Lab assignment 1
+
+Name:- Vedant Patel
+Student ID:- 202001083
+
 
 
 Q.1. Identify FRs and NFRs:
@@ -44,10 +49,30 @@ Functional Requirements
 
 Non - Functional Requirements
 
-1) User is able to open the website only if he/ she is connected to the institute's network.(no via private network)
-2) Privacy - Personal details of the users should not be leaked at any cost.
-3) Security - only authorized people can access the database of LIS. confidential information like password should not be stored as plain text. It must be encrypted.
-4) Speed - Servers should be capable of high traffic. (at least 75 % of the population of institute can be able to access it smoothly )
-5) Ease of use  - System should have a normal easy to understand interface. Users should be able to find required information easily.
+User is able to open the website only if he/ she is connected to the institute's network.(no via private network)
+Privacy - Personal details of the users should not be leaked at any cost.
+Security - only authorized people can access the database of LIS. confidential information like password should not be stored as plain text. It must be encrypted.
+Speed - Servers should be capable of high traffic. (at least 75 % of the population of institute can be able to access it smoothly )
+Ease of use  - System should have a normal easy to understand interface. Users should be able to find required information easily.
 
 
+
+Q.2. Identify scope, features and non-functional aspects of the following problem.
+
+Scope
+
+	The app able to identify the different alert sounds like car horn, bell rings, door knocks,
+Call rings, fire alarms, Animal sound etc. After that it should replicate that alerts via vibration and flash lights in a real time environment. (quick).
+
+Features 
+
+-> User can set his alert method (vibration rhythm, flash blinking)
+-> It does not stop until user don’t stop it
+-> Only user can stop the alert (fingerprint verification or else)
+
+Non functional Requirements
+
+1)  Reliability - App should accurately identify voice and response accordingly
+2)  Security - Only user can change the setting
+3)  low latency - App should be optimized and response time should be very quick so it can usable in real time
+4) Scalability - App should be able to entertain 5% of the world population 
